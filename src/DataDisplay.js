@@ -33,12 +33,11 @@ class DataDisplay extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://api.waqi.info/feed/' + this.props.city + '/?token=7ef04af09a2a93a67569a5c774a03c617e99103e')
+    fetch('//api.waqi.info/feed/' + this.props.city + '/?token=7ef04af09a2a93a67569a5c774a03c617e99103e')
       .then(response => response.json())
       .then(json => {
         if (json.status === 'ok') {
           const { data } = json;
-          console.log(data);
           const mug = aqiToMug(data.iaqi.pm25.v);
           this.setState({ data: {
             mug: mug,
