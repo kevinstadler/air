@@ -1,0 +1,40 @@
+#content {
+	display: flex;
+	justify-content: center;
+}
+
+.CityData {
+	margin: 20px;
+	padding: 20px;
+	border: dashed 1px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+header {
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.aqi1 {
+	background-color: #009966;
+}
+.aqi2 {
+	background-color: #ffde33;
+}
+.aqi3 {
+	background-color: #ff9933;
+}
+.aqi4 {
+	background-color: #cc0033;
+}
+.aqi5 {
+	background-color: #660099;
+}
+.aqi6 {
+	background-color: #7e0023;
+}
+.aqi7 {
+	background-color: #7e0023;
+}
